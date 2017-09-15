@@ -1,5 +1,5 @@
 # Octane_Gherkin
-This script is a simple script to demonstrate the ability to have Cucumber tests results be reported back to Octane (via Jenkins).
+This script is a simple script to demonstrate the ability to have Cucumber tests results be reported back to Octane (via Jenkins).  You will need to make sure to have the Jenkins [HPE Application Automation Tools 5.2](https://wiki.jenkins.io/display/JENKINS/HPE+Application+Automation+Tools) plug in installed to perform the steps below
 
 If you have an old version of the script or need to put the script in your devops container, use the following steps.
 ```
@@ -31,5 +31,5 @@ Publish JUnit test result report
 * the file name shown above comes from the name used in the test project (src/test/java/net.hpe/TestRunner) class
 
 HPE Octane Cucumber test reporter
-* Generally speaking, you shouldn't need to enter anything.  The above is based on the use of the Jenkins HPE Application Automation Tools 5.2
+* Generally speaking, you shouldn't need to enter anything.  The above is based on the use of the Jenkins [HPE Application Automation Tools 5.2](https://wiki.jenkins.io/display/JENKINS/HPE+Application+Automation+Tools)
 
