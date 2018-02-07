@@ -1,10 +1,10 @@
-# Octane_Gherkin
+# octane-gherkin
 This script is a simple script to demonstrate the ability to have Cucumber tests results be reported back to Octane (via Jenkins).  You will need to make sure to have the Jenkins [HPE Application Automation Tools 5.2](https://wiki.jenkins.io/display/JENKINS/HPE+Application+Automation+Tools) plug in installed to perform the steps below
 
 If you have an old version of the script or need to put the script in your devops container, use the following steps.
 ```
 From a terminal window clone the following 
-   git clone --mirror https://github.houston.softwaregrp.net/AMSPreSales-Demos/Octane_Gherkin.git
+   git clone --mirror https://github.houston.softwaregrp.net/AMSPreSales-Demos/octane-gherkin.git
 
 Copy this project into the devops container 
    docker cp Octane_Gherkin.git devops:/GitRepo
