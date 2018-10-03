@@ -28,6 +28,6 @@ Feature: mobile feature stuff
 	Scenario: Mobile scenario 4
 		Given I have A
 		"""
-		text for Mobile scenario 3
+		text for Mobile scenario 4
 		"""
 		Then I have A and B
