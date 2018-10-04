@@ -24,7 +24,7 @@ NOTE: You can change the execution options based on tags as explained in the [Te
 
 And enter the following for your Post Build actions 
 
-![Jenkins Post Build Section](docImg/jenkinsPostBuild2.png?raw=true)
+![Jenkins Post Build Section](docImg/jenkinsPostBuild3.png?raw=true)
 
 **NOTE**
 
