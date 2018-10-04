@@ -21,9 +21,9 @@ import org.junit.runner.RunWith;
 //
 // For all scenarios that are @mobile AND @slow AND NOT @ignore
 // mvn  clean test -Dcucumber.options="--tags @mobile --tags @slow --tags ~@ignore"
-@CucumberOptions(plugin = {"pretty", "junit:junitResults.xml","html:target/cucumber-pretty-report"},
+@CucumberOptions(plugin = {"pretty", "junit:junitResults.xml"},
         features = ".",  // removed the long path dependency.  can use -Dcucumber.options="features=<path>" if need to change the path
-        tags = {"@web,~@mobile"})
+        tags = {"@web,~@mobile"})  // This was designed to run web and any other feature file added by default.  You can vary it by following the information above.
 
 public class TestRunner {
 
