@@ -2,11 +2,8 @@
 @TID3001REV0.3.0
 @web
 Feature: Gherkin demo test 1
-	Background:
-		Given application is open
-
 	Scenario: Web Scenario 1
-		Given I have A
+	    Given I have A
 		"""
 		large set of text to be passed
 		"""
@@ -19,7 +16,7 @@ Feature: Gherkin demo test 1
 		another large set of text
 		"""
 		Given I enter the following information
-			|firstname |lastname|
-			|Flynn        |Maven     |
-			|Shahar     |MC           |
+			|firstname  |lastname   |
+			|Flynn      |Maven      |
+			|Shahar     |MC         |
 		Then I have A and B
