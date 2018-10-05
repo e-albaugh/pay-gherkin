@@ -29,7 +29,7 @@ And enter the following for your Post Build actions
 **NOTE**
 
 Publish JUnit test result report
-* the file name shown above comes from the name used in the test project (src/test/java/net.hpe/TestRunner) class
+* the file name shown above comes from the name used in the test project (src/test/java/net.mf/TestRunner) class
 
 Octane Cucumber test reporter
 * Generally speaking, you shouldn't need to enter anything.  The above is based on the use of the Jenkins  [Micro Focus Application Automation Tools](https://wiki.jenkins.io/display/JENKINS/Micro+Focus+Application+Automation+Tools)
