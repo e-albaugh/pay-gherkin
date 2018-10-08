@@ -255,7 +255,6 @@ leanftResults.xml
 RunResults/
 
 # JetBrains Rider
-.idea/
 *.sln.iml
 
 # Eclipse
@@ -274,3 +273,5 @@ RunResults/
 # Maven
 log/
 target/
+junitResults.xml
+gherkin-results/
