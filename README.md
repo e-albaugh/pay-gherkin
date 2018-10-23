@@ -3,14 +3,7 @@ This script is a simple script to demonstrate the ability to have Cucumber tests
 
 If you have an old version of the script or need to put the script in your devops container, use the following steps.  Note: This step was intended for those who are leveraging the Micro Focus demo platform NImbus.  This example can still be used if you are not using Nimbus simply by creating your Jenkins job to point at the [octane-gherkin](https://github.com/admpresales/octane-gherkin) project as part of the build step.
 ```
-From a terminal window clone the following 
-   git clone --mirror https://github.com/admpresales/octane-gherkin.git
-
-Copy this project into the devops container 
-   docker cp octane-gherkin.git devops:/gitrepo
-
-Remove the local git
-   rm -rf octane-gherkin.git
+docker exec devops bash -c "su -s /bin/bash -c 'git clone --mirror https://github.com/admpresales/octane-gherkin.git /gitrepo/octane-gherkin' apache"
 
 ```
 
