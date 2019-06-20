@@ -264,6 +264,7 @@ RunResults/
 
 # Intellij
 .idea/
+!.idea/misc.xml
 *.iml
 *.iws
 
