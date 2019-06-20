@@ -263,8 +263,8 @@ RunResults/
 .settings/
 
 # Intellij
-!.idea/misc.xml
 .idea/*
+!.idea/misc.xml
 *.iml
 *.iws
 
