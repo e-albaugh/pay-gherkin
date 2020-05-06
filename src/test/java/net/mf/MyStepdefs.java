@@ -1,12 +1,15 @@
 package net.mf;
 
 import cucumber.api.DataTable;
+import cucumber.api.PendingException;
 import cucumber.api.Scenario;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.junit.Assert;
+
+import static junit.framework.TestCase.assertTrue;
 
 public class MyStepdefs {
     private static boolean firstime = true;
@@ -37,44 +40,25 @@ public class MyStepdefs {
         //System.out.println("\tScenario Name: "+scenario.getName());
     }
 
-    @Given("^I have A$")
-    public void iHaveA(String s) throws Throwable {
+    @Given("^I have API access$")
+    public void iHaveAPIAccess() throws Throwable {
         // Write code here that turns the phrase above into concrete actions
         //throw new PendingException();
-        //System.out.println("\t\tGiven actions here using the large string passed: \n\r\t\t\t"+s);
+        assertTrue(true);
     }
 
-    @When("^I add B$")
-    public void iAddB() throws Throwable {
+    @When("^I PUT <attribute>$")
+    public void iPUTAttribute() throws Throwable {
         // Write code here that turns the phrase above into concrete actions
         //throw new PendingException();
-        //System.out.println("\t\tWhen actions here");
+        assertTrue(true);
     }
 
-    @Then("^I have A and B$")
-    public void iHaveAAndB() throws Throwable {
+    @Then("^<attribute> is updated$")
+    public void attributeIsUpdated() throws Throwable {
         // Write code here that turns the phrase above into concrete actions
         //throw new PendingException();
-        //System.out.println("\t\tThen actions here");
-    }
-
-    @Given("^application is open$")
-    public void applicationIsOpen() throws Throwable {
-        // Write code here that turns the phrase above into concrete actions
-        //throw new PendingException();
-        //System.out.println("\t\tBackground actions here");
-    }
-
-    @Given("^I enter the following information$")
-    public void enterTheFollowingInformation(DataTable table) throws Throwable {
-        // There are several ways to approach handling the DataTable.  Below is just one option
-        // This could be used if on some scenarios you needed to enter a varying list of names
-//        List<Map<String, String>> data = table.asMaps(String.class, String.class);
-//        System.out.println("\t\tGiven the following names ("+data.size()+")");
-//        for (int i=0; i<data.size(); i++){
-//
-//            System.out.println("\t\t\tFirst Name: "+data.get(i).get("firstname")+"\t\tLast Name: "+data.get(i).get("lastname"));
-//        }
+        assertTrue(true);
     }
 }
 
