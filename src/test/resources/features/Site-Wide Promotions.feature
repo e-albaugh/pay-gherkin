@@ -1,5 +1,5 @@
 #Auto generated Octane revision tag
-@TID6001REV0.2.0
+@TID1001REV0.2.0
 @web
 Feature: Site-Wide Promotions
 	Scenario Outline: Promotion search
