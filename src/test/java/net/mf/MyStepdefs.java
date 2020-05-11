@@ -27,7 +27,7 @@ public class MyStepdefs {
             System.out.println("------------------------------------------------------------------------------------");
             firstime = false;
         }
-        //System.out.println("\tScenario Name: "+scenario.getName());
+        System.out.println("\tScenario Name: "+scenario.getName());
     }
 
     @Before({"@mobile"})
@@ -39,7 +39,7 @@ public class MyStepdefs {
             System.out.println("-------------------------------------------------------------------------------------");
             firstime = false;
         }
-        //System.out.println("\tScenario Name: "+scenario.getName());
+        System.out.println("\tScenario Name: "+scenario.getName());
     }
 
     @Given("^the browser is in the search bar$")
@@ -47,7 +47,7 @@ public class MyStepdefs {
         // Write code here that turns the phrase above into concrete actions
         //throw new PendingException();
         assertTrue(true);
-        system.out.println("cursor blinking in search bar");
+        System.out.println("cursor blinking in search bar");
     }
 
     @When("^the user searches for \"([^\"]*)\"$")
@@ -55,7 +55,7 @@ public class MyStepdefs {
         // Write code here that turns the phrase above into concrete actions
         //throw new PendingException();
         assertTrue(true);
-        system.out.println("search entry displays results");
+        System.out.println("search entry displays results");
     }
 
     @Then("^\"([^\"]*)\" related content is displayed$")
@@ -63,7 +63,7 @@ public class MyStepdefs {
         // Write code here that turns the phrase above into concrete actions
         // throw new PendingException();
         assertTrue(true);
-        system.out.println("results are related to search entry");
+        System.out.println("results are related to search entry");
     }
 
     @Given("^the user is in the site$")
@@ -71,7 +71,7 @@ public class MyStepdefs {
         // Write code here that turns the phrase above into concrete actions
         // throw new PendingException();
         assertTrue(true);
-        system.out.println("user is in site");
+        System.out.println("user is in site");
     }
 
     @When("^the user navigates to any screen$")
@@ -79,7 +79,7 @@ public class MyStepdefs {
         // Write code here that turns the phrase above into concrete actions
         //throw new PendingException();
         assertTrue(true);
-        system.out.println("user able to navigate to other screens");
+        System.out.println("user able to navigate to other screens");
     }
 
     @Then("^the user can still see the promotion on the top banner$")
@@ -87,7 +87,7 @@ public class MyStepdefs {
         // Write code here that turns the phrase above into concrete actions
         //throw new PendingException();
         assertTrue(false);
-        system.out.println("catastrophic failure...idk if we will be able to fix this. tell my family i love them");
+        System.out.println("catastrophic failure...idk if we will be able to fix this. tell my family i love them");
     }
 }
 
