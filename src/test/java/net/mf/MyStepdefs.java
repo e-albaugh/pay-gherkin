@@ -67,6 +67,7 @@ public class MyStepdefs {
     @When("^the user navigates to any screen$")
     public void theUserNavigatesToAnyScreen() throws Throwable {
         // Write code here that turns the phrase above into concrete actions
+        assertTrue(false);
         throw new PendingException();
     }
 
