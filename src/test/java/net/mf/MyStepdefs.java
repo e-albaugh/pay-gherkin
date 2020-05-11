@@ -40,25 +40,40 @@ public class MyStepdefs {
         //System.out.println("\tScenario Name: "+scenario.getName());
     }
 
-    @Given("^I have API access$")
-    public void iHaveAPIAccess() throws Throwable {
+    @Given("^the browser is in the search bar$")
+    public void theBrowserIsInTheSearchBar() throws Throwable {
         // Write code here that turns the phrase above into concrete actions
-        //throw new PendingException();
-        assertTrue(true);
+        throw new PendingException();
     }
 
-    @When("^I PUT <attribute>$")
-    public void iPUTAttribute() throws Throwable {
+    @When("^the user searches for \"([^\"]*)\"$")
+    public void theUserSearchesFor(String arg0) throws Throwable {
         // Write code here that turns the phrase above into concrete actions
-        //throw new PendingException();
-        assertTrue(true);
+        throw new PendingException();
     }
 
-    @Then("^<attribute> is updated$")
-    public void attributeIsUpdated() throws Throwable {
+    @Then("^\"([^\"]*)\" related content is displayed$")
+    public void relatedContentIsDisplayed(String arg0) throws Throwable {
         // Write code here that turns the phrase above into concrete actions
-        //throw new PendingException();
-        assertTrue(true);
+        throw new PendingException();
+    }
+
+    @Given("^the user is in the site$")
+    public void theUserIsInTheSite() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        throw new PendingException();
+    }
+
+    @When("^the user navigates to any screen$")
+    public void theUserNavigatesToAnyScreen() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        throw new PendingException();
+    }
+
+    @Then("^the user can still see the promotion on the top banner$")
+    public void theUserCanStillSeeThePromotionOnTheTopBanner() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        throw new PendingException();
     }
 }
 
