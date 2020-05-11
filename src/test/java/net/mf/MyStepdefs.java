@@ -9,6 +9,7 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.junit.Assert;
 import static java.lang.System.*;
+import java.io.*;
 
 import static junit.framework.TestCase.assertTrue;
 
