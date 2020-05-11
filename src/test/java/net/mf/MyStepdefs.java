@@ -43,38 +43,43 @@ public class MyStepdefs {
     @Given("^the browser is in the search bar$")
     public void theBrowserIsInTheSearchBar() throws Throwable {
         // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+        //throw new PendingException();
+        assertTrue(true);
     }
 
     @When("^the user searches for \"([^\"]*)\"$")
     public void theUserSearchesFor(String arg0) throws Throwable {
         // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+        //throw new PendingException();
+        assertTrue(true);
     }
 
     @Then("^\"([^\"]*)\" related content is displayed$")
     public void relatedContentIsDisplayed(String arg0) throws Throwable {
         // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+        // throw new PendingException();
+        assertTrue(true);
     }
 
     @Given("^the user is in the site$")
     public void theUserIsInTheSite() throws Throwable {
         // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+        // throw new PendingException();
+        assertTrue(true);
     }
 
     @When("^the user navigates to any screen$")
     public void theUserNavigatesToAnyScreen() throws Throwable {
         // Write code here that turns the phrase above into concrete actions
-        assertTrue(false);
-        throw new PendingException();
+        //throw new PendingException();
+        assertTrue(true);
     }
 
     @Then("^the user can still see the promotion on the top banner$")
     public void theUserCanStillSeeThePromotionOnTheTopBanner() throws Throwable {
         // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+        //throw new PendingException();
+        assertTrue(false);
     }
 }
 
