@@ -47,7 +47,7 @@ public class MyStepdefs {
         // Write code here that turns the phrase above into concrete actions
         //throw new PendingException();
         assertTrue(true);
-        System.out.println("cursor blinking in search bar");
+        
     }
 
     @When("^the user searches for \"([^\"]*)\"$")
@@ -55,7 +55,7 @@ public class MyStepdefs {
         // Write code here that turns the phrase above into concrete actions
         //throw new PendingException();
         assertTrue(true);
-        System.out.println("search entry displays results");
+        
     }
 
     @Then("^\"([^\"]*)\" related content is displayed$")
@@ -63,7 +63,7 @@ public class MyStepdefs {
         // Write code here that turns the phrase above into concrete actions
         // throw new PendingException();
         assertTrue(true);
-        System.out.println("results are related to search entry");
+        
     }
 
     @Given("^the user is in the site$")
@@ -71,7 +71,7 @@ public class MyStepdefs {
         // Write code here that turns the phrase above into concrete actions
         // throw new PendingException();
         assertTrue(true);
-        System.out.println("user is in site");
+        
     }
 
     @When("^the user navigates to any screen$")
@@ -79,15 +79,14 @@ public class MyStepdefs {
         // Write code here that turns the phrase above into concrete actions
         //throw new PendingException();
         assertTrue(true);
-        System.out.println("user able to navigate to other screens");
+        
     }
 
     @Then("^the user can still see the promotion on the top banner$")
     public void theUserCanStillSeeThePromotionOnTheTopBanner() throws Throwable {
         // Write code here that turns the phrase above into concrete actions
         //throw new PendingException();
-        assertTrue(false);
-        System.out.println("catastrophic failure...idk if we will be able to fix this. tell my family i love them");
+        assertTrue("catastrophic failure...idk if we will be able to fix this. tell my family i love them", false);
     }
 }
 
